@@ -11,8 +11,7 @@ apt-get update
 apt-get install -y git
 
 # emacs 24.4
-cd ~
-mkdir emacs-src && cd emacs-src
+mkdir -p ~/src/emacs && cd ~/src/emacs
 wget http://mirror.team-cymru.org/gnu/emacs/emacs-24.4.tar.gz
 tar xvf emacs-24.4.tar.gz
 
